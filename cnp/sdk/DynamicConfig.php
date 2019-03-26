@@ -53,9 +53,7 @@ class DynamicConfig
    *
    * @throws \Exception
    */
-  public static function setConfig(
-    string $username, string $password, string $merchantID, string $mode
-  )
+  public static function setConfig($username, $password, $merchantID, $mode)
   {
     self::$config['user'] = $username;
     self::$config['password'] = $password;
